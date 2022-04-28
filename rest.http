@@ -10,3 +10,13 @@ Content-Type: application/json
     "email": "user@example.com",
     "password": "123456"
 }
+
+###
+POST http://localhost:5000/api/users/signup
+Content-Type: application/json
+
+{
+    "name": "pariwesh",
+    "email": "a@example.com",
+    "password": "123456"
+}
